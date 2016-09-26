@@ -18,21 +18,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88k-kl-7F9">
-                                <rect key="frame" x="225" y="20" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88k-kl-7F9">
+                                <rect key="frame" x="229" y="20" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-qv-I0P">
-                                <rect key="frame" x="137" y="518" width="46" height="30"/>
+                                <rect key="frame" x="113" y="518" width="94" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.96575162377987911" blue="0.12151908722577509" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A longer label"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMx-7o-kWu">
+                                <rect key="frame" x="59" y="518" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIB-oo-Rdf">
+                                <rect key="frame" x="113" y="448" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.13258774425516295" green="1" blue="0.079758965471328325" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="C8j-qv-I0P" firstAttribute="top" secondItem="WIB-oo-Rdf" secondAttribute="bottom" constant="40" id="5Oa-sQ-D27"/>
                             <constraint firstItem="C8j-qv-I0P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Itd-ig-2Q7"/>
                             <constraint firstItem="88k-kl-7F9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-29" id="Q0c-xB-ywG"/>
                             <constraint firstItem="88k-kl-7F9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ce5-lM-M5C"/>
+                            <constraint firstItem="WIB-oo-Rdf" firstAttribute="leading" secondItem="C8j-qv-I0P" secondAttribute="leading" id="fqf-vi-26b"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="C8j-qv-I0P" secondAttribute="bottom" constant="20" id="qO6-X3-p4z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SMx-7o-kWu" secondAttribute="bottom" constant="20" id="t8y-7D-O4W"/>
+                            <constraint firstItem="C8j-qv-I0P" firstAttribute="leading" secondItem="SMx-7o-kWu" secondAttribute="trailing" constant="8" id="w9b-ot-yGG"/>
                         </constraints>
                     </view>
                 </viewController>
